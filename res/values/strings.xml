@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DQM3D配合查询器</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_title">总览</string>
+    <string name="monsters_title">怪物列表</string>
+    <string name="monster_parents">配    合</string>
+    <string name="monster_levle">怪物级别:%1$s</string>
+    <string name="monster_name">怪物名字:%1$s</string>
+    <string name="monster_size">占用格数:%1$s</string>
+    <string name="monster_get">获得方法:\n%1$s</string>
+    <string name="parents_null">无</string>
+    
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="exit_msg">确定要退出应用吗?</string>
+    <string name="exit">退 出</string>
+    
+    <string name="slm_x">スライム系</string>
+    <string name="long_x">ドラゴン系</string>
+    <string name="ms_x">魔獣系</string>
+    <string name="js_x">ゾンビ系</string>
+    <string name="zr_x">自然系</string>
+    <string name="wz_x">物質系</string>
+    <string name="em_x">悪魔系</string>
+
+    <string-array name="items">
+        <item>史莱姆系</item>
+        <item>龙系</item>
+        <item>自然系</item>
+        <item>野兽系</item>
+        <item>物质系</item>
+        <item>恶魔系</item>
+        <item>僵尸系</item>
+        <item>魔王系</item>
+    </string-array>
+
+</resources>

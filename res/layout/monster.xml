@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/monster_base_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/monster_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/m1" />
+
+        <TextView
+            android:id="@+id/monster_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/monster_img"
+            android:text="xxxx"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/monster_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/monster_img"
+            android:text="xxxx"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/monster_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/monster_img"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/monster_img"
+            android:text="xxxx"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/monster_parents_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monster_base_info"
+        android:layout_centerHorizontal="true"
+        android:text="@string/monster_parents"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/parents_null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monster_parents_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/parents_null"
+        android:textColor="@color/number"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/parents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monster_parents_text" />
+
+    <TextView
+        android:id="@+id/monster_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parents"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

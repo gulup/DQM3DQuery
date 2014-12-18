@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/monster_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/monster_b"
+        android:text="X"
+        android:textColor="@color/number"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/monster_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/monster_x" />
+
+    <TextView
+        android:id="@+id/monster_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="X"
+        android:textColor="@color/number"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/monster_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/monster_x" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/monster_4"
+        android:text="X"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/number"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/monster_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>
